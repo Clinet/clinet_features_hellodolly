@@ -9,6 +9,7 @@ import (
 )
 
 var Feature = features.Feature{
+	Help: "Use /hellodolly to get a random lyric from Louis Armstrong's Hello, Dolly. Inspired by the WordPress sample plugin!",
 	Name: "hellodolly",
 	Cmds: []*cmds.Cmd{
 		cmds.NewCmd("hellodolly", "Responds with a random lyric from Louis Armstrong's Hello, Dolly", handleHelloDolly),
